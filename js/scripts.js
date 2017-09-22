@@ -20,8 +20,15 @@ $("document").ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     var number = $("input#input").val();
+    if(number > 0){
+      var result = pingF(number);
+      alert(result);
+    } else if(number <= 0){
+      alert("Please enter a number more than zero!")
+    } else {
+      alert("Please enter a number!");
+    }
 
-    var result = pingF(number);
-    alert(result);
+
   })
 })

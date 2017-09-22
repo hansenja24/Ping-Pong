@@ -1,0 +1,29 @@
+h4 {
+  display: none;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1cm 0.1cm 0.1cm;
+  font-family: serif;
+  text-align: left;
+}
+
+.jumbotron:hover {
+  background-color: #33A8FF
+}
+
+#formOne {
+  color: white;
+  font-family: serif;
+}
