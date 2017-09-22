@@ -13,23 +13,23 @@ A website created with HTML and Javascript where a user can submit a number and 
 
 1. Taking the inputted number from HTML pages to Javascript
 Input: 3
-Output: 3
+Output: 1,2,3
 
 2. Printing a word "Ping" for a numbers divisible by 3
 Input: 6
-Output: Ping Ping
+Output: 1, 2, Ping, 4, 5, Ping
 
 3. Printing a word "Pong" for a numbers divisible by 5
 Input: 5
-Output: Pong
+Output: 1, 2, 3, 4, Pong
 
 4. Printing a word "Ping-Pong" for a numbers divisible by 3 and 5.
-Input: 30
-Output: "Ping-Pong Ping-Pong"
+Input: 15
+Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, "Ping-Pong
 
 5. Combining all the function into one
 Input: 18
-Output: Ping Pong Ping Ping Pong Ping Ping-Pong Ping
+Output: 1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, Ping-Pong, 16, 17, Ping
 
 ## Setup/Installation Requirements
 
