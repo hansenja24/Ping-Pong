@@ -22,11 +22,14 @@ $("document").ready(function() {
     var number = $("input#input").val();
     if(number > 0){
       var result = pingF(number);
-      alert(result);
     } else if(number <= 0){
       alert("Please enter a number more than zero!")
     } else {
       alert("Please enter a number!");
+    }
+
+    for(i = 0; i < result.length; i++){
+      $(".box ul").append("<li>"+result[i]+"</li>");
     }
 
 
