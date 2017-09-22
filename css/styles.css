@@ -9,14 +9,23 @@ h4 {
   border-radius: 25px;
   margin: 50px;
   padding: 20px;
+  text-align: center;
+  background-color: #ccffff;
 }
 
-.jumbotron {
-  text-align: center;
+.jumbotron{
   color: white;
   text-shadow: black 0.1cm 0.1cm 0.1cm;
   font-family: serif;
   text-align: left;
+  background-color: #ccffff;
+}
+
+.result{
+  display: none;;
+}
+ul#result li:hover{
+  background-color: #33A8FF
 }
 
 .jumbotron:hover {
@@ -26,4 +35,8 @@ h4 {
 #formOne {
   color: white;
   font-family: serif;
+}
+
+ul#result{
+  list-style: none;
 }
